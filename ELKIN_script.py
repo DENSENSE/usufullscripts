@@ -1,4 +1,5 @@
 from datetime import *
+import calendar
 from math import ceil
 
 
@@ -10,7 +11,7 @@ def ElkÍn():
 
     first_month = 9 # точка отсчета в месяцов
     first_day = 2 # точка отсчета во днях
-    days_in_month = [30, 31, 30, 31, 30, 28, 30, 31, 30, 31] # Нормальная система месяцев, чтоб все работало (отсчет с сентября)
+    days_in_month = [30, 31, 30, 31, 31, 28, 30, 31, 30, 31] # Нормальная система месяцев, чтоб все работало (отсчет с сентября)
 
     array_today= str(date.today()).split('-') # YEAR MONTH DAY
 
